@@ -1,13 +1,13 @@
 # Laravel Homestead
 
-- [Introduction](#introduction)
-- [Included Software](#included-software)
-- [Installation & Setup](#installation-and-setup)
-- [Daily Usage](#daily-usage)
-- [Ports](#ports)
+- [Introdução](#introduction)
+- [Software Incluso](#included-software)
+- [Instalação & Configuração](#installation-and-setup)
+- [Uso Diário](#daily-usage)
+- [Portas](#ports)
 
 <a name="introduction"></a>
-## Introduction
+## Introdução
 
 Laravel strives to make the entire PHP development experience delightful, including your local development environment. [Vagrant](http://vagrantup.com) provides a simple, elegant way to manage and provision Virtual Machines.
 
