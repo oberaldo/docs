@@ -1,19 +1,19 @@
-# Upgrade Guide
+# Guia de Atualização
 
-- [Upgrading To 5.0 From 4.2](#upgrade-5.0)
-- [Upgrading To 4.2 From 4.1](#upgrade-4.2)
-- [Upgrading To 4.1.29 From <= 4.1.x](#upgrade-4.1.29)
-- [Upgrading To 4.1.26 From <= 4.1.25](#upgrade-4.1.26)
-- [Upgrading To 4.1 From 4.0](#upgrade-4.1)
+- [Atualizando Para 5.0 De 4.2](#upgrade-5.0)
+- [Atualizando Para 4.2 De 4.1](#upgrade-4.2)
+- [Atualizando Para 4.1.29 De <= 4.1.x](#upgrade-4.1.29)
+- [Atualizando Para 4.1.26 De <= 4.1.25](#upgrade-4.1.26)
+- [Atualizando Para 4.1 De 4.0](#upgrade-4.1)
 
 <a name="upgrade-5.0"></a>
-## Upgrading To 5.0 From 4.2
+## Atualizando Para 5.0 De 4.2
 
-### Fresh Install, Then Migrate
+### Instalação Limpa, Então Migrar
 
-The recommended method of upgrading is to create a new Laravel `5.0` install and then to copy your `4.2` site's unique application files into the new application. This would include controllers, routes, Eloquent models, Artisan commands, assets, and other code specific to your application.
+O método recomendado de atualização é criar uma nova instalação do Laravel `5.0` e então copiar os arquivos únicos da sua aplicação `4.2` para a nova aplicação. Isso inclui controllers, routes, models Eloquent, comandos Artisan, assets e outros códigos específicos para sua aplicação.
 
-To start, [install a new Laravel 5 application](/docs/5.0/installation) into a fresh directory in your local environment. We'll discuss each piece of the migration process in further detail below.
+Para iniciar, [instale uma nova aplicação Laravel 5](/docs/5.0/installation) em um diretório limpo em seu ambiente de desenvolvimento. Vamos discutir cada detalhe do processo de migração em mais detalhes abaixo.
 
 ### Composer Dependencies & Packages
 
